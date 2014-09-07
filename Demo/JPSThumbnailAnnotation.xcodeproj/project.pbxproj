@@ -21,6 +21,8 @@
 		E8EF4F2C1725027D0051DB36 /* empire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8EF4F2B1725027D0051DB36 /* empire.jpg */; };
 		E8EF4F2F1725081E0051DB36 /* ottawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8EF4F2D1725081E0051DB36 /* ottawa.jpg */; };
 		E8EF4F301725081E0051DB36 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8EF4F2E1725081E0051DB36 /* apple.jpg */; };
+		FACEBC5119BC57AF00EDA024 /* testbig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACEBC4F19BC57AF00EDA024 /* testbig@2x.png */; };
+		FACEBC5219BC57AF00EDA024 /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACEBC5019BC57AF00EDA024 /* test@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		E8EF4F2B1725027D0051DB36 /* empire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empire.jpg; sourceTree = "<group>"; };
 		E8EF4F2D1725081E0051DB36 /* ottawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ottawa.jpg; sourceTree = "<group>"; };
 		E8EF4F2E1725081E0051DB36 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		FACEBC4F19BC57AF00EDA024 /* testbig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testbig@2x.png"; sourceTree = "<group>"; };
+		FACEBC5019BC57AF00EDA024 /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		E875D68E17245D6C00009A6F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FACEBC4F19BC57AF00EDA024 /* testbig@2x.png */,
+				FACEBC5019BC57AF00EDA024 /* test@2x.png */,
 				E8EF4F2D1725081E0051DB36 /* ottawa.jpg */,
 				E8EF4F2E1725081E0051DB36 /* apple.jpg */,
 				E8EF4F2B1725027D0051DB36 /* empire.jpg */,
@@ -195,9 +201,11 @@
 				E875D69A17245D6C00009A6F /* Default.png in Resources */,
 				E875D69C17245D6C00009A6F /* Default@2x.png in Resources */,
 				E875D69E17245D6C00009A6F /* Default-568h@2x.png in Resources */,
+				FACEBC5119BC57AF00EDA024 /* testbig@2x.png in Resources */,
 				E8EF4F2C1725027D0051DB36 /* empire.jpg in Resources */,
 				E8EF4F2F1725081E0051DB36 /* ottawa.jpg in Resources */,
 				E8EF4F301725081E0051DB36 /* apple.jpg in Resources */,
+				FACEBC5219BC57AF00EDA024 /* test@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

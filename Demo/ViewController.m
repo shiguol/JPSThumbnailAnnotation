@@ -32,7 +32,7 @@
 - (NSArray *)annotations {
     // Empire State Building
     JPSThumbnail *empire = [[JPSThumbnail alloc] init];
-    empire.image = [UIImage imageNamed:@"empire.jpg"];
+    empire.image = [UIImage imageNamed:@"test"];
     empire.title = @"Empire State Building";
     empire.subtitle = @"NYC Landmark";
     empire.coordinate = CLLocationCoordinate2DMake(40.75f, -73.99f);
