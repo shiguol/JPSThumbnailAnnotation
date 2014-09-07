@@ -63,7 +63,7 @@ static CGFloat const kJPSThumbnailAnnotationViewAnimationDuration = 0.25f;
 }
 
 - (void)setupImageView {
-  _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(12.5f, 12.5f, 50.0f, 47.0f)];
+  _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(22, 38, 30.0f, 39.0f)];
   //_imageView.layer.cornerRadius = 4.0f;
   //_imageView.layer.masksToBounds = YES;
   //_imageView.layer.borderColor = [[UIColor lightGrayColor] CGColor];
