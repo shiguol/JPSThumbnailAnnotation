@@ -32,6 +32,8 @@ typedef NS_ENUM(NSInteger, JPSThumbnailAnnotationViewState) {
 
 @interface JPSThumbnailAnnotationView : MKAnnotationView <JPSThumbnailAnnotationViewProtocol>
 
+@property (nonatomic, strong) UILabel *titleLabel;
+
 - (id)initWithAnnotation:(id<MKAnnotation>)annotation;
 
 - (void)updateWithThumbnail:(JPSThumbnail *)thumbnail;
