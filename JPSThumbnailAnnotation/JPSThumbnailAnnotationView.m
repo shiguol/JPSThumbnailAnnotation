@@ -72,7 +72,7 @@ static CGFloat const kJPSThumbnailAnnotationViewAnimationDuration = 0.25f;
 }
 
 - (void)setupTitleLabel {
-  _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, -4, 30.0f, 39.0f)];
+  _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, -6, 30.0f, 39.0f)];
   _titleLabel.textColor = [UIColor whiteColor];
   _titleLabel.font = [UIFont boldSystemFontOfSize:15];
   _titleLabel.minimumScaleFactor = 0.8f;
