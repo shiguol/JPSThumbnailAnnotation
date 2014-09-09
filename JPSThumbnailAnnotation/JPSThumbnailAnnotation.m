@@ -10,8 +10,6 @@
 
 @interface JPSThumbnailAnnotation ()
 
-@property (nonatomic, readwrite) JPSThumbnailAnnotationView *view;
-
 @end
 
 @implementation JPSThumbnailAnnotation
