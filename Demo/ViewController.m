@@ -33,8 +33,7 @@
     // Empire State Building
     JPSThumbnail *empire = [[JPSThumbnail alloc] init];
     empire.image = [UIImage imageNamed:@"test"];
-    empire.title = @"Empire State Building";
-    empire.subtitle = @"NYC Landmark";
+    empire.title = @"1";
     empire.coordinate = CLLocationCoordinate2DMake(40.75f, -73.99f);
     empire.disclosureBlock = ^{ NSLog(@"selected Empire"); };
     

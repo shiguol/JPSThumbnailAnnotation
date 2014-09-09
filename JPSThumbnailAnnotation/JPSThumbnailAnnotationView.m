@@ -56,10 +56,10 @@ static CGFloat const kJPSThumbnailAnnotationViewAnimationDuration = 0.25f;
 - (void)setupView {
   [self setupImageView];
   [self setupTitleLabel];
-  [self setupSubtitleLabel];
-  [self setupDisclosureButton];
-  [self setLayerProperties];
-  [self setDetailGroupAlpha:0.0f];
+  //[self setupSubtitleLabel];
+  //[self setupDisclosureButton];
+  //[self setLayerProperties];
+  //[self setDetailGroupAlpha:1.0f];
 }
 
 - (void)setupImageView {
@@ -72,12 +72,12 @@ static CGFloat const kJPSThumbnailAnnotationViewAnimationDuration = 0.25f;
 }
 
 - (void)setupTitleLabel {
-  _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(-32.0f, 16.0f, 168.0f, 20.0f)];
-  _titleLabel.textColor = [UIColor darkTextColor];
-  _titleLabel.font = [UIFont boldSystemFontOfSize:17];
+  _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(11, 0, 30.0f, 39.0f)];
+  _titleLabel.textColor = [UIColor whiteColor];
+  _titleLabel.font = [UIFont boldSystemFontOfSize:15];
   _titleLabel.minimumScaleFactor = 0.8f;
   _titleLabel.adjustsFontSizeToFitWidth = YES;
-  [self addSubview:_titleLabel];
+  [self.imageView addSubview:_titleLabel];
 }
 
 - (void)setupSubtitleLabel {
