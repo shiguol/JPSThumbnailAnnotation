@@ -23,7 +23,7 @@ static CGFloat const kJPSThumbnailAnnotationViewAnimationDuration = 0.25f;
 @property (nonatomic, readwrite) CLLocationCoordinate2D coordinate;
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, strong) UILabel *subtitleLabel;
-@property (nonatomic, strong) ActionBlock disclosureBlock;
+@property (nonatomic, strong) whyobjnonamesapceActionBlock disclosureBlock;
 
 @property (nonatomic, strong) CAShapeLayer *bgLayer;
 @property (nonatomic, strong) UIButton *disclosureButton;
