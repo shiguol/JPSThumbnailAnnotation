@@ -32,10 +32,6 @@
   if (_bExpandMode)
   {
     if (!self.view2) {
-      self.view2 = (JPSThumbnailAnnotationView2 *)[mapView dequeueReusableAnnotationViewWithIdentifier:kJPSThumbnailAnnotationViewReuseID2];
-    }
-    
-    if (!self.view2) {
       self.view2 = [[JPSThumbnailAnnotationView2 alloc] initWithAnnotation:self];
     }
     else {
@@ -46,11 +42,7 @@
     return self.view2;
   }
   else
-  {
-    if (!self.view) {
-      self.view = (JPSThumbnailAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:kJPSThumbnailAnnotationViewReuseID];
-    }
-    
+  {    
     if (!self.view) {
       self.view = [[JPSThumbnailAnnotationView alloc] initWithAnnotation:self];
     }
