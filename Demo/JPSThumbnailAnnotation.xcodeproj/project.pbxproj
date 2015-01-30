@@ -21,6 +21,7 @@
 		E8EF4F2C1725027D0051DB36 /* empire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8EF4F2B1725027D0051DB36 /* empire.jpg */; };
 		E8EF4F2F1725081E0051DB36 /* ottawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8EF4F2D1725081E0051DB36 /* ottawa.jpg */; };
 		E8EF4F301725081E0051DB36 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8EF4F2E1725081E0051DB36 /* apple.jpg */; };
+		FA1808151A7BB32200018DFA /* JPSThumbnailAnnotationView2.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1808141A7BB32200018DFA /* JPSThumbnailAnnotationView2.m */; };
 		FACEBC5119BC57AF00EDA024 /* testbig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACEBC4F19BC57AF00EDA024 /* testbig@2x.png */; };
 		FACEBC5219BC57AF00EDA024 /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACEBC5019BC57AF00EDA024 /* test@2x.png */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,8 @@
 		E8EF4F2B1725027D0051DB36 /* empire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empire.jpg; sourceTree = "<group>"; };
 		E8EF4F2D1725081E0051DB36 /* ottawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ottawa.jpg; sourceTree = "<group>"; };
 		E8EF4F2E1725081E0051DB36 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		FA1808131A7BB32200018DFA /* JPSThumbnailAnnotationView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnailAnnotationView2.h; sourceTree = "<group>"; };
+		FA1808141A7BB32200018DFA /* JPSThumbnailAnnotationView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumbnailAnnotationView2.m; sourceTree = "<group>"; };
 		FACEBC4F19BC57AF00EDA024 /* testbig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testbig@2x.png"; sourceTree = "<group>"; };
 		FACEBC5019BC57AF00EDA024 /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +137,8 @@
 		E8B7E7D61724664A00E93E96 /* JPSThumbnailAnnotation */ = {
 			isa = PBXGroup;
 			children = (
+				FA1808131A7BB32200018DFA /* JPSThumbnailAnnotationView2.h */,
+				FA1808141A7BB32200018DFA /* JPSThumbnailAnnotationView2.m */,
 				E8B7E7D71724669200E93E96 /* JPSThumbnailAnnotation.h */,
 				E8B7E7D81724669200E93E96 /* JPSThumbnailAnnotation.m */,
 				E8B7E7DA172466B600E93E96 /* JPSThumbnailAnnotationView.h */,
@@ -220,6 +225,7 @@
 				E875D69817245D6C00009A6F /* AppDelegate.m in Sources */,
 				E875D6A117245D6C00009A6F /* ViewController.m in Sources */,
 				E8B7E7D91724669200E93E96 /* JPSThumbnailAnnotation.m in Sources */,
+				FA1808151A7BB32200018DFA /* JPSThumbnailAnnotationView2.m in Sources */,
 				E8B7E7DC172466B600E93E96 /* JPSThumbnailAnnotationView.m in Sources */,
 				E8EF4F2A1724EE840051DB36 /* JPSThumnail.m in Sources */,
 			);

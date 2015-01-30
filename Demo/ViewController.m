@@ -33,13 +33,14 @@
     // Empire State Building
     JPSThumbnail *empire = [[JPSThumbnail alloc] init];
     empire.image = [UIImage imageNamed:@"test"];
-    empire.title = @"1";
+    empire.title = @"Spot";
+    empire.subtitle = @"Empire State Building";
     empire.coordinate = CLLocationCoordinate2DMake(40.75f, -73.99f);
     empire.disclosureBlock = ^{ NSLog(@"selected Empire"); };
     
     // Apple HQ
     JPSThumbnail *apple = [[JPSThumbnail alloc] init];
-    apple.image = [UIImage imageNamed:@"apple.jpg"];
+    apple.image = [UIImage imageNamed:@"test"];
     apple.title = @"Apple HQ";
     apple.subtitle = @"Apple Headquarters";
     apple.coordinate = CLLocationCoordinate2DMake(37.33f, -122.03f);
@@ -47,13 +48,16 @@
     
     // Parliament of Canada
     JPSThumbnail *ottawa = [[JPSThumbnail alloc] init];
-    ottawa.image = [UIImage imageNamed:@"ottawa.jpg"];
+    ottawa.image = [UIImage imageNamed:@"test"];
     ottawa.title = @"Parliament of Canada";
     ottawa.subtitle = @"Oh Canada!";
     ottawa.coordinate = CLLocationCoordinate2DMake(45.43f, -75.70f);
     ottawa.disclosureBlock = ^{ NSLog(@"selected Ottawa"); };
-    
-    return @[[JPSThumbnailAnnotation annotationWithThumbnail:empire],
+  
+    JPSThumbnailAnnotation *obj = [JPSThumbnailAnnotation annotationWithThumbnail:empire];
+    obj.bExpandMode = YES;
+  
+    return @[obj,
              [JPSThumbnailAnnotation annotationWithThumbnail:apple],
              [JPSThumbnailAnnotation annotationWithThumbnail:ottawa]];
 }

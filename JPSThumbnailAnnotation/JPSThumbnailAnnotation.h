@@ -10,6 +10,7 @@
 @import MapKit;
 #import "JPSThumbnail.h"
 #import "JPSThumbnailAnnotationView.h"
+#import "JPSThumbnailAnnotationView2.h"
 
 @protocol JPSThumbnailAnnotationProtocol <NSObject>
 
@@ -21,6 +22,10 @@
 
 @property (nonatomic, readonly) JPSThumbnail *thumbnail;
 @property (nonatomic, readwrite) JPSThumbnailAnnotationView *view;
+@property (nonatomic, readwrite) JPSThumbnailAnnotationView2 *view2;
+
+// expand or growth mode
+@property (nonatomic, readwrite) BOOL bExpandMode;
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 
