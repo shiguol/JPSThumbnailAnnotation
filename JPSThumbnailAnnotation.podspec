@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/shiguol/JPSThumbnailAnnotation"
   s.license = 'MIT'
   s.summary = "Pin"
-  s.source = { :git => 'https://github.com/shiguol/JPSThumbnailAnnotation.git', :branch => 'feature_wg'}
+  s.source = { :git => 'https://github.com/shiguol/JPSThumbnailAnnotation.git', :branch => 'feature_wg', :tag=>'1.0.0.11'}
   s.source_files = 'JPSThumbnailAnnotation/*.{h,m}'
   s.frameworks   = 'QuartzCore', 'MapKit', 'CoreLocation'
   s.requires_arc = true
