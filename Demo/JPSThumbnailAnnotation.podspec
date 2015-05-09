@@ -1,14 +1,19 @@
 Pod::Spec.new do |s|
-  s.name = 'JPSThumbnailAnnotation'
-  s.version  = '1.0.0.11'
-  s.platform = :ios, '7.0'
-  s.authors = { "JPS" => "JPS@gmail.com"}
-  s.homepage = "https://github.com/shiguol/JPSThumbnailAnnotation"
-  s.license = 'MIT'
-  s.summary = "Pin"
-  s.source = { :git => 'https://github.com/shiguol/JPSThumbnailAnnotation.git', :branch => 'feature_wg'}
-  s.source_files = 'JPSThumbnailAnnotation/*.{h,m}'
-  s.frameworks   = 'QuartzCore', 'MapKit', 'CoreLocation'
-  s.requires_arc = true
-end
+  s.name         = 'JPSThumbnailAnnotation'
+  s.version      = '<#Project Version#>'
+  s.license      =  :type => '<#License#>'
+  s.homepage     = '<#Homepage URL#>'
+  s.authors      =  '<#Author Name#>' => '<#Author Email#>'
+  s.summary      = '<#Summary (Up to 140 characters#>'
 
+# Source Info
+  s.platform     =  :ios, '<#iOS Platform#>'
+  s.source       =  :git => '<#Github Repo URL#>', :tag => '<#Tag name#>'
+  s.source_files = '<#Resources#>'
+  s.framework    =  '<#Required Frameworks#>'
+
+  s.requires_arc = true
+  
+# Pod Dependencies
+
+end
